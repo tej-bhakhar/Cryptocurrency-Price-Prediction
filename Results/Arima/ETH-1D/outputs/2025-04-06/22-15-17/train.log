@@ -1,0 +1,16 @@
+[2025-04-06 22:15:32,184][factory.trainer][INFO] - Training started.
+[2025-04-06 22:15:37,152][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2025-04-06 22:15:37,152][factory.trainer][INFO] - Training is completed in 4.97 seconds.
+[2025-04-06 22:15:37,152][factory.evaluator][INFO] - Evaluating started.
+[2025-04-06 22:15:37,720][factory.profit_calculator][INFO] - Low price training started.
+[2025-04-06 22:15:37,738][factory.trainer][INFO] - Training started.
+[2025-04-06 22:15:42,547][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2025-04-06 22:15:42,547][factory.trainer][INFO] - Training is completed in 4.81 seconds.
+[2025-04-06 22:15:42,603][factory.profit_calculator][INFO] - High price training started.
+[2025-04-06 22:15:42,619][factory.trainer][INFO] - Training started.
+[2025-04-06 22:15:47,408][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2025-04-06 22:15:47,408][factory.trainer][INFO] - Training is completed in 4.79 seconds.
+[2025-04-06 22:15:47,605][__main__][INFO] - 
+               | accuracy_score|    f1_score   |  recall_score |precision_score|      MAE      |      RMSE     |      MAPE     |     SMAPE     |      MASE     |      MSLE     
+validation-0   |     0.674     |     0.675     |     0.650     |     0.702     |     786.97    |    1016.35    |     28.74     |     34.40     |     18.05     |     0.192     
+

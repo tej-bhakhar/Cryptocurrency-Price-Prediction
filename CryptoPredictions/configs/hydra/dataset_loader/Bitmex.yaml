@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - common
+
+name: 'Bitmex'
+binsize: 1h
+batch_size: 750
+symbol: "XBTUSD"
+
+
+
+#Bitcoin: XBTUSD
+#Ethereum: ETHUSD
+
+

@@ -1,0 +1,33 @@
+validation_method: simple
+symbol: BTC
+load_path: C:\Users\tejbh\Desktop\VS CODE\PROJECT\CryptoPredictions\data\XBTUSD-1d-data.csv
+save_dir: null
+dataset_path: null
+model:
+  type: random_forest
+  n_estimators: 1000
+  random_state: 42
+  is_regression: true
+dataset_loader:
+  name: Bitmex
+  binsize: 1d
+  batch_size: 750
+  symbol: XBTUSD
+  window_size: 10
+  train_start_date: '2015-11-26 00:00:00'
+  train_end_date: '2022-11-9 00:00:00'
+  valid_start_date: '2022-11-10 00:00:00'
+  valid_end_date: '2025-01-12 00:00:00'
+  features: Date, open, High, Low, close, volume
+  indicators_names: rsi macd
+metrics:
+- accuracy_score
+- f1_score
+- recall_score
+- precision_score
+- MAE
+- RMSE
+- MAPE
+- SMAPE
+- MASE
+- MSLE

@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+  - model: orbit #orbit - random_forest - sarimax - lstm - gru - prophet - xgboost - arima
+  - dataset_loader: Bitmex #Bitmex - CoinMarket
+  - metrics
+
+validation_method: simple
+symbol: BTC
+load_path: C:\Users\tejbh\Desktop\VS CODE\PROJECT\CryptoPredictions\data\XBTUSD-1h-data.csv
+save_dir:
+dataset_path:

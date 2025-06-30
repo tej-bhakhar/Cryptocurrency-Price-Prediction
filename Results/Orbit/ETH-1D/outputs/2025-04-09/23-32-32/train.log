@@ -1,0 +1,19 @@
+[2025-04-09 23:33:02,952][factory.trainer][INFO] - Training started.
+[2025-04-09 23:33:03,021][orbit][INFO] - Sampling (CmdStanPy) with chains: 4, cores: 8, temperature: 1.000, warmups (per chain): 225 and samples(per chain): 25.
+[2025-04-09 23:43:32,772][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2025-04-09 23:43:32,772][factory.trainer][INFO] - Training is completed in 629.82 seconds.
+[2025-04-09 23:43:32,772][factory.evaluator][INFO] - Evaluating started.
+[2025-04-09 23:43:35,926][factory.profit_calculator][INFO] - Low price training started.
+[2025-04-09 23:43:35,939][factory.trainer][INFO] - Training started.
+[2025-04-09 23:43:36,058][orbit][INFO] - Sampling (CmdStanPy) with chains: 4, cores: 8, temperature: 1.000, warmups (per chain): 225 and samples(per chain): 25.
+[2025-04-10 06:56:44,420][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2025-04-10 06:56:44,420][factory.trainer][INFO] - Training is completed in 25988.48 seconds.
+[2025-04-10 06:56:45,245][factory.profit_calculator][INFO] - High price training started.
+[2025-04-10 06:56:45,260][factory.trainer][INFO] - Training started.
+[2025-04-10 06:56:45,356][orbit][INFO] - Sampling (CmdStanPy) with chains: 4, cores: 8, temperature: 1.000, warmups (per chain): 225 and samples(per chain): 25.
+[2025-04-10 07:06:43,206][factory.trainer][INFO] - ----------------------------------------------------------------------------------------------------
+[2025-04-10 07:06:43,206][factory.trainer][INFO] - Training is completed in 597.95 seconds.
+[2025-04-10 07:06:44,761][__main__][INFO] - 
+               | accuracy_score|    f1_score   |  recall_score |precision_score|      MAE      |      RMSE     |      MAPE     |     SMAPE     |      MASE     |      MSLE     
+validation-0   |     0.648     |     0.665     |     0.654     |     0.676     |     57.09     |     73.87     |      1.88     |      1.87     |     0.934     |     0.001     
+
